@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Define o ponto de entrada para o Lambda
-CMD ["python", "-m", "lambda_handler"]
+CMD ["python", "-m","app.adapters.lambda_handler"]
